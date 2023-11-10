@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access to education</title>
+  <link rel="stylesheet" href="style.css">
+ 
+  <script src="jnd.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Mulish:wght@300;700&family=Overpass:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&family=Mulish:wght@300;700&family=Overpass:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&family=Overpass:wght@400;500;600&family=Syne&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@600;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="jnd.js"></script>
+  <div class="desktop">
+     <nav>
+    <ul class="navbar">
+     
+      <span class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Introduction</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Current</a></li>
+        <li><a href="#">Stories</a></li>
+       
+        </ul>
+    </nav>
+      
+    </ul>
+   </nav>
+    <div class="sec1">
+  
+    <img class="line" src="img1.jpg" />
+    
+   
+   <header></header>
+   <nav>
+    <ul class="navbar">
+      <span class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#current">Current</a></li>
+        <li><a href="#stories">Stories</a></li>
+        </ul>
+    </nav>
+    <h1 class="heading1"> THE DALIT:</h1>
+    <h2 class="heading2">BORN INTO A LIFE OF DISCRIMINATION & STIGMA</h1>
+      
+  </header>
+    </div>
+    </div>
+    <section id="intro">    <div class="intro">
+      <p>IN INDIA, <span> DALITS</span> STILL EXPERIENCE THE PROFOUND SENSE OF BEING AT THE VERY BOTTOM OF THE CASTE SYSTEM.</p>
+    </div>
+</section>
+    <div class="who">
+<h1> WHO ARE <br>THE DALITS?</h1>
+<div class="box">
+  <p>Dalits, often referred to as the 'untouchables' in India and other South Asian nations, are condemned to a life of perpetual marginalization, exclusion, and a litany of human rights abuses. They are systematically categorized according to their lineage and consequently relegated to the lowest stratum of societal hierarchies.</p>
+  <button id="toggleButton">Toggle Box</button>
+</div>
+
+
+
+<img class="redcircle" src="img4.png" />
+<img class="yellowcircle" src="img5.png" />
+<img class="hands" src="img7.png" />
+<img class="kid" src="img2.png" />
+<img class="books" src="img3.png" />
+<img class="article" src="img6.png" />
+
+
+</div>
+<section id="history">
+    <div class="history">
+      <img src="img8.avif" />
+      <section class="box2">
+       </section>
+       <h1><center>HISTORY OF UNTOUCHABILITY</center></h1>
+    </div>
+   
+    
+
+<body>
+    <ul class="timeline">
+        <li class="timeline-item">
+            <div class="timeline-content">
+                <h3>1850 - Caste Disabilities Removal Act</h3>
+                <p>The Caste Disabilities Removal Act abolished Indian laws challenging the rights of individuals based on their caste or religion, marking the first step towards social equalization in India. Initiatives to increase accessibility to education for members of the Dalit caste began.</p>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-content">
+                <h3>1940s - Poor Conditions for Dalit Children</h3>
+                <p>In the 1940s, Dalit children faced poor conditions within the Indian education system. Discrimination from higher castes made Dalits uncomfortable attending schools.</p>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <div class="timeline-content">
+                <h3>1950s - Subtle Improvements</h3>
+                <p>In the 1950s, there were subtle improvements in the number of schools being built in India and the amount of money allocated towards primary education programs. Government efforts to improve education gained momentum.</p>
+            </div>
+        </li>
+        <!-- You can continue adding more events to the timeline as needed -->
+    </ul>
+
+    <script>
+        const timelineItems = document.querySelectorAll('.timeline-item');
+
+        timelineItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                const content = item.querySelector('.timeline-content');
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    timelineItems.forEach((otherItem) => {
+                        const otherContent = otherItem.querySelector('.timeline-content');
+                        if (otherContent !== content) {
+                            otherContent.style.display = 'none';
+                        }
+                    });
+                    content.style.display = 'block';
+                }
+            });
+        });
+    </script>
+    </section>
+<div class="education">
+    
+  <img src="img9.png" alt="">
+  <img class="quotation1" src="img10.png" />
+  <img class="quotation2" src="img11.png" />
+  <h1 class="ed">EDUCATION</h1>
+  <h1 class="fr">FOR</h1>
+  <h1 class="all">ALL</h1>
+
+</div>
+</div>
+<section id="current">
+<div class="access">
+    <div class="box3">
+        <p class="ensuring">Ensuring access to education for the Dalits of India has been the greatest challenge for the Indian government in diminishing the social effects of the caste system, which still remain entrenched in Indian society. There have been many different reasons proposed as to why the Dalits suffer from low rates of literacy and primary education enrolment, but the most realistic one describes history and unequal access as the causes.</p>
+    <h1>DIFFICULTIES FACED </h1>
+    <h1 class="first">01 </h1>
+    
+    <h1 class="second">02</h1>
+    <h1 class="third">03</h1>
+    <p class="many">Many parents from economically disadvantaged backgrounds, often struggle to make ends meet. The lack of pre-matric scholarships for all children, regardless of their family's incomes, underscores the urgent need to address the financial barriers that prevent many children from economically disadvantaged backgrounds from accessing education</p>
+    <p class="in">In some schools, particularly in rural areas, Dalit and tribal children often face segregation and discrimination. They are sometimes forced to sit separately from their non-Dalit or non-tribal classmates or relegated to the back of the classroom.  Many teachers may hold biases or stereotypes against Dalit and tribal children due to deeply ingrained societal prejudices.</p>
+<p class="manyrural">Many rural areas, where a significant population of Dalit and tribal communities reside, suffer from inadequate road infrastructure.  schools are far away, a lack of affordable and safe transportation options compounds the problem. Public transportation services may be limited or unreliable in rural areas, and the cost of private transportation can be prohibitive for low-income families.</p>
+<h1 class="access">ACCESS</h1>
+<h1 class="to">TO</h1>
+<h1 class="edu">DUCATION</h1>
+</div>
+</div>
+</section>
+<div class="chart">
+    
+ 
+    
+    <head>
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <h1>Dropout Rates</h1>
+    
+        <canvas id="dropoutChart" width="20" height="30"></canvas>
+    
+        <script>
+            // Data
+            var data = {
+                labels: ['Classes 1-5', 'Classes 1-8', 'Classes 1-10'],
+                datasets: [
+                    {
+                        data: [42.60, 60.90, 71.34],
+                        backgroundColor: ['#3498db', '#e74c3c', '#f39c12']
+                    },
+                    {
+                        data: [62.52, 78.57, 85.01],
+                        backgroundColor: ['lightblue', 'lightcoral', 'lightyellow']
+                    }
+                ]
+            };
+    
+            // Chart options
+            var options = {
+                responsive: true,
+            };
+    
+            // Get the canvas element and render the chart
+            var ctx = document.getElementById('dropoutChart').getContext('2d');
+            var pieChart = new Chart(ctx, {
+                type: 'pie',
+                data: data,
+                options: options
+            });
+        </script>
+       
+      
+        
+        <div class="chartinfo">
+
+           
+            <ul>
+            <li>The issue of student dropouts is prevalent across all categories of children in India.</li>
+            <li>However, when considering children studying in Classes 1-10, there has been an increasing disparity in dropout rates between the Scheduled Tribe (ST) population and the total population from 1990-91 to 1998-99.</li>
+            <li>The reduction in dropout rates during this period may be attributed to various incentive schemes implemented by State Governments to encourage education among ST children. These schemes often include provisions for free textbooks, uniforms, and scholarships in government schools.</li>
+            <li>Unfortunately, not all schemes, such as those offering hostels for ST boys and girls, are fully implemented due to financial constraints, resulting in fewer ST children continuing their education beyond the lower levels.</li>
+            <li>Despite the policy of reserving special seats for ST students at higher education levels, many ST students do not reach these stages of education and drop out at lower levels, making the special seat reservation less accessible to them.</li>
+            
+        </ul>
+            </div>
+            
+            </div>
+            </div>
+            <section id="stories">
+            <div class="stories">
+                <img class="yellowcircle2" src="img5.png" alt="">
+                <img class="speech" src="img12.png" alt="">
+                <img class="kid1" src="img13.png" alt="">
+                <p class="mansi">Mansi, a student of class two, was forced by the principal to dispose off the carcass of a puppy. When she refused to do so she was brutally caned. That is not all, she is also regularly made to sweep the school premises.</p>
+                <div class="vl"></div>
+                <div class="hl"></div>
+                <div class="vl4"></div>
+                <img class="yellowcircle3" src="img5.png" alt="">
+                <img class="kid2" src="img14.png" alt="">
+                <img class="speech2" src="img15.png" alt="">
+                <p class="sonal">Sonal from class six, is made to sit separately during lunch ny the teacher, becuase of untouchability. They believe they are impure and dirty and dont want them mixing with other children. They are made to sit on the floor while the upper class people sit on the platform.</p>
+                <div class="vl2"></div>
+                <div class="hl2"></div>
+                <div class="vl3"></div>
+                <img class="yellowcircle4" src="img5.png" alt="">
+                <img class="kid3" src="img16.png" alt="">
+                <img class="speech3" src="img12.png" alt="">
+                <p class="boy">This boy was beaten up by his teachers for touching the plate of the upper class children. They are always mistreated</p>
+            
+            
+            </div>
+        </section>
+        
+            <div class="mind-map">
+                <div class="main-idea">
+                    MAINSTREAMING <br>THE MARGINALIZED
+                </div>
+                
+                <div class="sub-ideas">
+                    <div class="sub-idea">
+                        <p>Right to Education Act needs to be implemented and monitored by the government.</p>
+                    </div>
+                    <div class="sub-idea">
+                        <p>The government should monitor drop out rates and develop relevant strategies to prevent it.</p>
+                    </div>
+                    <div class="sub-idea">
+                        <p>Free education for children of families from lower strata of society.</p>
+                    </div>
+                    <div class="sub-idea">
+                        <p>Teachers who discriminate against these youngsters must face severe consequences.</p>
+                    </div>
+                    <div class="sub-idea">
+                        <p>Availability of textbooks and materials in different native languages and implementation of curricula in tribal languages.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vl5"></div>
+            <div class="vl6"></div>
+            <div class="vl7"></div>
+            <div class="vl8"></div>
+            <div class="vl9"></div>
+            <div class="hl3"></div>
+            <div class="vl10"></div>
+    </body>
+    </html>
+    
+
+    </div>
+
+    
+
+
+</body>
+</html>

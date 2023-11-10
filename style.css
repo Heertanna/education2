@@ -1,0 +1,173 @@
+.desktop {
+  background-color: #f2c490;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+img.line{
+  height: 645px;
+  width: 1347px;
+ position: relative;
+ top: -9px;
+opacity: 60%;}
+
+ .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  list-style: none;
+  position: relative;
+  background-color: var(--color2);
+  padding: 12px 20px;
+  position: absolute;
+  top: 0;
+  color: white;
+  
+}
+header{
+  background-color: #f2c490;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 10%;
+  background: rgba(0, 0,0, 0.4);
+  color: white;
+}
+.menu {display: flex;}
+.menu li {padding-left: 30px;}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color1);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+.menu li a:hover{
+  text-decoration: underline;
+}
+.menu a{
+  font-family: 'Arimo';
+padding-left: 10px;}
+.heading1{
+  position: absolute;
+  font-size: 70px;
+  color: white;
+  top: 150px;
+  left: 50px;
+  font-family: 'Kodchasan';
+}
+.heading2{
+  position: absolute;
+  font-size: 70px;
+  color: white;
+  top: 230px;
+  left: 50px;
+  font-family: 'Kodchasan';
+}
+.intro{
+  background-color: #f2c490;
+  height: 645px;
+  width: 1347px;
+position: relative;
+}
+.intro p{
+  position: absolute;
+width: 1140px;
+height: 126px;
+top: 200px;
+left: 123px;
+font-family: 'Syne';
+font-size: 37px;
+text-align: center;
+letter-spacing: 2.1px;
+line-height: 47.3px;
+}
+.intro span{
+  font-weight: bolder;
+}
+.who{
+  background-color: #f2c490;
+  height: 645px;
+  width: 1347px;
+position: relative;
+border-style: black;
+
+}
+.who h1{
+  font-size: 70px;
+  font-family: 'Kodchasan';
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  letter-spacing: 7.2px;
+  line-height: 80px;
+}
+.who .kid{
+  height: 500px;
+  left: 740px;
+  top: 140px;
+  position:absolute;
+  object-fit: cover;
+
+}
+.who .books{
+  height: 200px;
+  position: absolute;
+  top: 5px;
+  left: 710px;
+}
+.who .redcircle{
+  height: 550px;
+  position: absolute;
+  top: -100px;
+  left: 720px
+  ;
+}
+.who .yellowcircle{
+  height: 350px;
+  position: absolute;
+  top: 5px;
+  left: 700px;
+  opacity: 60%;
+}
+.who .article{
+  height: 700px;
+  position: absolute;
+  top: -40px;
+  left: 730px;
+  transform: rotate(-20deg);
+
+  object-fit: cover;
+} 
+.box{
+  background-color: #ff4936;
+  width: 800px;
+height: 350px;
+position: absolute;
+top: 295px;
+}
+.who p{
+  font-family: 'Karla';
+  font-size: 25px;
+  position: absolute;
+  top: 10px;
+ padding: 30px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+.who .hands{
+  height: 240px;
+  position: absolute;
+  top: 10px;
+  left: 1000px;
+  transform: rotate(20deg);
+}
+
